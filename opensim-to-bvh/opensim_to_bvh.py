@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 Harri Kaimio
+# SPDX-License-Identifier: MIT
 """
 OpenSim to BVH Exporter
 
@@ -25,9 +27,6 @@ Usage:
 import argparse
 import sys
 from pathlib import Path
-
-# Add bvhsdk to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'bvhsdk'))
 
 import opensim
 import numpy as np

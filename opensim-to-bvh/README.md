@@ -1,5 +1,8 @@
 # OpenSim to BVH Exporter
 
+SPDX-FileCopyrightText: 2026 Harri Kaimio  
+SPDX-License-Identifier: MIT
+
 This script exports OpenSim models and animations to BVH (BioVision Hierarchy)
 format, making them compatible with animation software like Blender, iClone, and
 other motion capture tools.
